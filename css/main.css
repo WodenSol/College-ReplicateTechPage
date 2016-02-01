@@ -1,0 +1,106 @@
+body {
+    line-height: 1.5;
+    color: #333;
+}
+
+header {
+    background-color: #005689;
+    color: #FFF;
+    padding: 5px 5px 0 5px;
+    position: relative;
+}
+
+nav {
+    background-color: #00456e;
+}
+
+.navtext {
+    color: #fff;
+    padding: 5px;
+    font-family: "Guardian Egyptian Text", Georgia, serif;
+    margin-right: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.crumbtext {
+    color: #005689;
+    padding: 5px;
+    font-family: "Guardian Egyptian Text", Georgia, serif;
+    margin-right: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.crumbcarat {
+    color: #767676;
+}
+
+/* Overide of Bootstrap columns for header navigation */
+
+header .col-md-1 {
+    width: 6%;
+}
+
+header .col-md-2 {
+    width: 9%;
+}
+
+header .col-md-3 {
+    width: 12%;
+}
+
+header .col-md-4 {
+    width: 15.33%;
+}
+
+header .col-md-5 {
+    width: 46%;
+}
+
+/* end of overwrite */
+
+
+/* Top navigation text styles */
+
+.top-nav {
+    font-family: "Guardian Egyptian Text", Georgia, serif;
+    color: #FFF;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.top-menu {
+    background-color: #333; 
+    padding: 15px; 
+}
+
+.top-nav-inverse {
+    color: #005689;
+}
+
+.crumbs {
+    background-color: #dfdfdf;
+    padding: 10px;
+}
+
+
+/* end of top nav text styles */
+
+
+/* Guardian logo styles */
+
+.logo-holder {
+    padding: 10px;
+}
+
+/* end of Guardian logo styles
+
+
+/* 1280 container specifics */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1300px;
+    }
+}
