@@ -1,0 +1,13 @@
+body {
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    line-height: 1.5;
+    background-color: #005689;
+    color: #FFF;
+    padding: 5px 5px 0 5px;
+}
+
